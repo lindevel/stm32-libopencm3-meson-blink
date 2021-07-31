@@ -1,0 +1,10 @@
+[binaries]
+c = 'arm-none-eabi-gcc'
+strip = 'arm-none-eabi-strip'
+objcopy = 'arm-none-eabi-objcopy'
+
+[host_machine]
+system = 'bare-metel'
+endian = 'little'
+cpu_family = 'arm'
+cpu = 'cortex-m3'
